@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProcureSight Research | Procurement Market Intelligence</title>
+    <meta
+      name="description"
+      content="ProcureSight Research helps procurement teams make confident sourcing decisions with market intelligence, supplier benchmarking, and strategic advisory services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">ProcureSight<span>Research</span></a>
+        <nav aria-label="Primary navigation">
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Procurement market research specialists</p>
+            <h1>Market intelligence that helps procurement teams buy smarter.</h1>
+            <p class="lead">
+              We combine supplier intelligence, pricing analytics, and category expertise
+              so you can reduce risk, control costs, and negotiate from a stronger
+              position.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Request a Consultation</a>
+              <a class="btn btn-secondary" href="#services">Explore Services</a>
+            </div>
+            <ul class="stats" aria-label="Company highlights">
+              <li><strong>220+</strong><span>Category studies delivered</span></li>
+              <li><strong>34%</strong><span>Average sourcing savings identified</span></li>
+              <li><strong>48h</strong><span>Rapid insight turnaround</span></li>
+            </ul>
+          </div>
+          <aside class="card spotlight" aria-label="Featured report">
+            <p class="tag">Featured intelligence brief</p>
+            <h2>Global Logistics Benchmark 2026</h2>
+            <p>
+              Compare lane rates, regional capacity trends, and supplier reliability
+              benchmarks in one concise report.
+            </p>
+            <a class="link" href="#insights">View sample findings →</a>
+          </aside>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Services tailored to strategic procurement teams</h2>
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Supplier Landscape Mapping</h3>
+              <p>
+                Build shortlists with confidence using vetted supplier profiles, capacity
+                assessments, and geographic risk analysis.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Price & Cost Benchmarking</h3>
+              <p>
+                Understand fair market pricing with should-cost models, index tracking,
+                and historical price movement analysis.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Category Opportunity Assessments</h3>
+              <p>
+                Identify sourcing opportunities by category with spend diagnostics,
+                savings levers, and implementation roadmaps.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="industries" class="section section-alt">
+        <div class="container">
+          <h2>Industry expertise where procurement complexity is high</h2>
+          <div class="pill-row" role="list" aria-label="Industries served">
+            <span role="listitem">Manufacturing</span>
+            <span role="listitem">Healthcare</span>
+            <span role="listitem">Technology</span>
+            <span role="listitem">Retail & CPG</span>
+            <span role="listitem">Energy & Utilities</span>
+            <span role="listitem">Public Sector</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="insights" class="section">
+        <div class="container">
+          <h2>Recent insights</h2>
+          <div class="cards-grid insights-grid">
+            <article class="card insight-card">
+              <p class="tag">Whitepaper</p>
+              <h3>Five Hidden Cost Drivers in Indirect Spend</h3>
+              <p>
+                A practical framework for uncovering and mitigating non-obvious cost
+                leakage across service categories.
+              </p>
+            </article>
+            <article class="card insight-card">
+              <p class="tag">Quarterly Report</p>
+              <h3>Semiconductor Sourcing Outlook: Q2</h3>
+              <p>
+                Supply constraints, lead-time trends, and recommended negotiation
+                strategies for electronics buyers.
+              </p>
+            </article>
+            <article class="card insight-card">
+              <p class="tag">Case Study</p>
+              <h3>How a MedTech Firm Achieved 19% Savings</h3>
+              <p>
+                See how structured supplier benchmarking and contract redesign improved
+                resilience and lowered total landed cost.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Start your next sourcing decision with better data</h2>
+            <p>
+              Tell us your category priorities and timeline. We will follow up with a
+              tailored research approach.
+            </p>
+          </div>
+          <form class="contact-form" aria-label="Contact form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Work email
+              <input type="email" name="email" placeholder="name@company.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> ProcureSight Research. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
